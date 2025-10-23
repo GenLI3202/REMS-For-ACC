@@ -1,24 +1,22 @@
-# REMS - Resources and Event Management System
+# REMS for ACC - Resources and Event Management System
 
 <p align="center">
-  <img src="https://cdn.thekrishna.in/img/common/rems.png" alt="CMS For Organisations" height="250px">
+  <img src="https://cdn.thekrishna.in/img/common/rems.png" alt="REMS For ACC" height="250px">
 </p>
-<p align="center">All-in-one toolkit for generating forms, mailing lists and certificates—ideal for clubs and small organizations.</p>
+<p align="center">Across Cycling Club's customized deployment of REMS—an all-in-one toolkit for generating forms, mailing lists and certificates for club events.</p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/bearlike/REMS-For-Organisations?color=blue&style=flat-square" alt="Last Commit">
-  <a href="/LICENSE"><img src="https://img.shields.io/github/license/bearlike/REMS-For-Organisations.svg?style=flat-square" alt="License"></a>
-  <a href="https://github.com/bearlike/REMS-For-Organisations/pkgs/container/rems-for-organisations"><img src="https://img.shields.io/badge/ghcr.io-REMS--For--Organisations-blue?logo=docker&style=flat-square" alt="Docker Container" /></a>
-  <a href="https://github.com/bearlike/REMS-For-Organisations/issues"><img src="https://img.shields.io/github/issues-raw/bearlike/REMS-For-Organisations?color=red&style=flat-square" alt="Open Issues"/></a>
-  <a href="https://github.com/bearlike/REMS-For-Organisations/releases"><img src="https://img.shields.io/github/v/tag/bearlike/REMS-For-Organisations?label=stable&style=flat-square" alt="Latest Release"/></a>
+  <img src="https://img.shields.io/github/last-commit/GenLI3202/REMS-For-ACC?color=blue&style=flat-square" alt="Last Commit">
+  <a href="/LICENSE"><img src="https://img.shields.io/github/license/GenLI3202/REMS-For-ACC.svg?style=flat-square" alt="License"></a>
+  <a href="https://github.com/GenLI3202/REMS-For-ACC/issues"><img src="https://img.shields.io/github/issues-raw/GenLI3202/REMS-For-ACC?color=red&style=flat-square" alt="Open Issues"/></a>
 </p>
 
- > [!NOTE]
- > Prior to [version `1.1.5`](https://github.com/bearlike/REMS-For-Organisations/tree/release/v1.1.5?tab=readme-ov-file), this project was developed in PHP and has since been fully migrated to Python. The Python codebase begins with [`v2.0.0`](https://github.com/bearlike/REMS-For-Organisations/releases/tag/v2.0.0). No database migrations are required when upgrading from `v1.x` to `v2.0.0`.
+> [!NOTE]
+> This repository is a fork and customization of the original [REMS-For-Organisations](https://github.com/bearlike/REMS-For-Organisations) project, adapted specifically for ACC (Across Cycling Club). All core functionality is based on the excellent work by the original developers.
 
 ## 📝 Overview
 
-REMS began as a fun PHP project in college and has since been completely migrated to Python with Flask. It automates certificate generation, form creation, bulk mailing and more. Over 1500 participants across 20+ events have used it, and you can easily adapt it for your own organization.
+REMS for ACC is a customized deployment of the Resources and Event Management System, originally developed by Krishnakanth Alagiri and contributors. This Flask-based application automates certificate generation, form creation, bulk mailing and more for Across Cycling Club events. The system has been proven with over 1500 participants across 20+ events in various organizations.
 
 ## 🚀 Getting Started
 
@@ -138,17 +136,32 @@ Toggle between light and dark themes to save your eyes at night.
 
 ## ❓ Need Help?
 
-If you encounter any issues, please open a ticket using the appropriate template.
+If you encounter any issues with this ACC deployment, please open an issue in this repository. For questions about the core REMS functionality, refer to the [original project](https://github.com/bearlike/REMS-For-Organisations).
 
-## 👥 Contributors
+## 👥 ACC Maintainers
 
-| Krishnakanth Alagiri 👨‍💻 | Mahalakshumi V 👩‍💻 | Dhiraj V |
-| --- | --- | --- |
-| [![f](https://avatars1.githubusercontent.com/u/39209037?s=86)](https://kanth.tech/github/) | [![f](https://avatars2.githubusercontent.com/u/40058339?s=86)](https://github.com/mahavisvanathan) | [![f](https://i.imgur.com/KqeCBQX.jpg)](https://github.com/dhirajv2000) |
-| [@bearlike](https://kanth.tech/github/) | [@mahavisvanathan](https://github.com/mahavisvanathan) | [@dhirajv2000](https://github.com/dhirajv2000) |
+| Gen LI 👨‍💻/ Ziyang Zhang👨‍💻 |
+| --- |
+| [![GenLI3202](https://github.com/GenLI3202.png?size=100)](https://github.com/GenLI3202) |
+| [@GenLI3202](https://github.com/GenLI3202) |
 
 ## 🙏 Acknowledgments
 
-*Hat tip to everyone whose code was used.*
+### Original REMS Developers
+
+This project is built upon the excellent work of the original REMS development team:
+
+| Krishnakanth Alagiri 👨‍💻 | Mahalakshumi V 👩‍💻 | Dhiraj V 👨‍💻 |
+<!-- | --- | --- | --- |
+| [![f](https://avatars1.githubusercontent.com/u/39209037?s=86)](https://kanth.tech/github/) | [![f](https://avatars2.githubusercontent.com/u/40058339?s=86)](https://github.com/mahavisvanathan) | [![f](https://i.imgur.com/KqeCBQX.jpg)](https://github.com/dhirajv2000) |
+| [@bearlike](https://kanth.tech/github/) | [@mahavisvanathan](https://github.com/mahavisvanathan) | [@dhirajv2000](https://github.com/dhirajv2000) | -->
+
+**Original Project:** [REMS-For-Organisations](https://github.com/bearlike/REMS-For-Organisations)
+
+*Special thanks to everyone whose code and contributions made this project possible.*
+
+---
+
+**ACC Customizations**: This fork includes Across Cycling Club-specific branding, templates, and configurations while maintaining compatibility with the upstream project.
 
 ![wave](http://cdn.thekrishna.in/img/common/border.png)
