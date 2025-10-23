@@ -12,7 +12,7 @@ import os
 class DockerSecrets:
     """Docker secrets configuration."""
 
-    OrgName: str = "SVCE-ACM"
+    OrgName: str = "ACC"
     servername: str = os.getenv("MYSQL_HOST", "")
     username: str = os.getenv("MYSQL_USER", "")
     password: str = os.getenv("MYSQL_PASSWORD", "")

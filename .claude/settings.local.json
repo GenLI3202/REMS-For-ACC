@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy:*)",
+      "Bash(python run.py:*)",
+      "Bash(curl:*)",
+      "Bash(code --help)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

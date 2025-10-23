@@ -17,12 +17,17 @@ def create_app() -> Flask:
     """Create and configure the Flask application."""
     logger.info("Initializing Flask application")
     app = Flask(__name__)
+    
+    # Build database binds configuration - use same database for all if not specified
+    main_db_uri = os.getenv("MAIN_DB_URI")
+    binds = {
+        "forms": os.getenv("FORMS_DB_URI", main_db_uri),
+        "mail": os.getenv("MAIL_DB_URI", main_db_uri),
+    }
+    
     app.config.update(
-        SQLALCHEMY_DATABASE_URI=os.getenv("MAIN_DB_URI"),
-        SQLALCHEMY_BINDS={
-            "forms": os.getenv("FORMS_DB_URI"),
-            "mail": os.getenv("MAIL_DB_URI"),
-        },
+        SQLALCHEMY_DATABASE_URI=main_db_uri,
+        SQLALCHEMY_BINDS=binds,
         SQLALCHEMY_TRACK_MODIFICATIONS=False,
         SECRET_KEY="change-this-key",
     )
